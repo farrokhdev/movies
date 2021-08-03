@@ -14,7 +14,7 @@ const apiKey=process.env.REACT_APP_API
 
 const url = `https://api.themoviedb.org/3/movie/popular/?api_key=${apiKey}&language=en-US`;
 
-console.log(apiKey);
+
 
 export const AppProvider = ({ children }) => {
   
