@@ -1,7 +1,6 @@
 import React, {
   useContext,
   useState,
-  useReducer,
   useEffect,
   useRef,
 } from "react";
@@ -54,7 +53,7 @@ export const AppProvider = ({ children }) => {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
+  },[]);
 
   // refs
   const searchRef = useRef(null);

@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // import styled from "styled-components";
 import { Nav,Container,Logo,NavLinks,NavLink,Search,Toggle } from "./styled-comps";
 import menudata from "../datas/menuList";
 import { FaSistrix,FaAlignRight } from "react-icons/fa";
 import { useGlobalContext } from "../context";
-import { SearchBar } from "./SearchBar";
+
 
 
 

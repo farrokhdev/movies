@@ -1,8 +1,8 @@
-import React,{useRef} from "react";
+import React from "react";
 import { SearchSec, SearchForm, CloseBtn, Logo } from "./styled-comps";
 import { useGlobalContext } from "../context";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 
 export const SearchBar = () => {
   const {
